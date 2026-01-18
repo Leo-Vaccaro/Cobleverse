@@ -1,0 +1,1809 @@
+[02:30:40] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[02:30:40] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:41] [main/INFO]: Loading 199 mods:
+	- advancementdisable 1.0.0
+	- architectury 13.0.8
+	- athena 4.0.2
+	- badgebox 1.1.1
+	- balm 21.0.53
+	   \-- kuma_api 21.0.7
+	- beautify 1.3.0+1.21.1
+	- biome_replacer 2.1-hippo
+	   \-- mixinsquared 0.3.3
+	- capture_xp 1.6.1-fabric-1.2.0
+	- carved_wood 1.7.6
+	   \-- cardinal-components-block 6.1.0
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- cobblecuisine 1.2
+	- cobbledollars 2.0.0+Beta-5.1+1.21.1
+	- cobblefurnies 0.6.3
+	- cobblemon 1.6.1+1.21.1
+	- cobblemon-additions 3.9.4
+	- cobblemonboxlink 1.0.4
+	- cobblenav 2.2.4
+	- cobbleride 0.3.3+1.21.1
+	- cobbleversebadges 1.2
+	- cobbreeding 1.9.1
+	- comforts 9.0.4+1.21.1
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   \-- spectrelib 0.17.2+1.21
+	        |-- com_electronwill_night-config_core 3.8.0
+	        \-- com_electronwill_night-config_toml 3.8.0
+	- cozyhome 1.1.15
+	- debugify 1.21.1+1.0
+	- defaultoptions 21.1.2
+	- fabric-api 0.116.7+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.6+kotlin.2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fancymenu 3.7.0
+	   |-- com_github_keksuccino_japng 0.5.3
+	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
+	- ferritecore 7.0.2-hotfix
+	- fightorflight 0.8.4
+	- forgeconfigapiport 21.1.4
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- forgivingvoid 21.1.5
+	- geckolib 4.8.2
+	- globalpacks 21.0.6
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- handcrafted 4.0.3
+	- highlight 3.5.0
+	- hugestructureblocks 1.1.6
+	- iceberg 1.3.2
+	- java 21
+	- konkrete 1.9.9
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- lenientdeath 1.2.5+1.21.1
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- jackfredlib-base 1.4.0+1.21
+	   |-- jackfredlib-colour 1.1.0+1.21
+	   |-- jackfredlib-config 0.2.3+1.21
+	   |    |-- blue_endless_jankson 1.2.3
+	   |    |-- commons-io_commons-io 2.15.1
+	   |    \-- jackfredlib-base 1.4.0+1.21
+	   |-- jackfredlib-lying 0.5.5+1.21
+	   \-- server_translations_api 2.3.1+1.21-pre2
+	        \-- packet_tweaker 0.5.1+24w03b
+	- libjf 3.17.3
+	   |-- libjf-base 3.17.3
+	   |-- libjf-config-commands 3.17.3
+	   |-- libjf-config-core-v2 3.17.3
+	   |-- libjf-config-network-v0 3.17.3
+	   |-- libjf-config-ui-tiny 3.17.3
+	   |-- libjf-data-manipulation-v0 3.17.3
+	   |-- libjf-data-v0 3.17.3
+	   |-- libjf-mainhttp-v0 3.17.3
+	   |-- libjf-resource-pack-entry-widgets-v0 3.17.3
+	   |-- libjf-translate-v1 3.17.3
+	   |-- libjf-unsafe-v0 3.17.3
+	   \-- libjf-web-v1 3.17.3
+	- lithium 0.15.0+mc1.21.1
+	- lumymon 0.4.7-2
+	- mega_showdown 10.0.8-release-fabric
+	- melody 1.0.10
+	- midnightlib 1.7.5
+	- minecraft 1.21.1
+	- moarconcrete 1.3.1
+	- modernfix 5.24.3+mc1.21.1
+	- more_cobblemon_tweaks 1.1.3
+	- nethermap 4.0.0-1.21.1
+	- netherportalfix 21.1.3
+	- noisium 2.3.0+mc1.21-1.21.1
+	- notenoughcrashes 4.4.9+1.21.1
+	- obc 1.2.0
+	- owo 0.12.15.4+1.21
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- packetfixer 3.3.0
+	- pasture-loot 1.0.2+1.21.1
+	- ping-wheel 1.11.1
+	- playerxp 1.0.2+1.21.1
+	- pokeblocks 1.4.0-1.21.1
+	- rctapi 0.13.9-beta
+	- rctmod 0.16.9-beta
+	- repurposed_structures 7.5.17+1.21.1-fabric
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- respackopts 4.11.3
+	   |-- io_gitlab_jfronny_muscript-all 2.0.0-SNAPSHOT
+	   \-- io_gitlab_jfronny_muscript-json 2.0.0-SNAPSHOT
+	- roughlyenoughitems 16.0.799
+	   \-- error_notifier 1.0.11
+	- safepastures 1.1.0+1.21.1
+	- sophisticatedbackpacks 1.21.1-3.23.4.3.106
+	- sophisticatedcore 1.21.1-1.2.9.19.161
+	   |-- porting_lib_conditions 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_core 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_fluids 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_item_abilities 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_lazy_registration 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_level_events 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_loot 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_model_loader 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_render_types 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_transfer 3.1.0-beta.47+1.21.1
+	   \-- team_reborn_energy 4.1.0
+	- sophisticatedstorage 1.21.1-1.3.7.7.133
+	- sound_physics_remastered 1.21.1-1.4.10
+	- soundsbegone 1.3.5
+	   \-- com_posthog_java_posthog 1.1.0
+	- stackdeobfuscator 1.4.3+08e71cc
+	   |-- net_fabricmc_mapping-io 0.6.1
+	   \-- stackdeobfuscator-common 1.4.3+08e71cc
+	- supermartijn642configlib 1.1.8
+	- tim_core 1.6.1-fabric-1.15.1
+	- tmcraft 1.4.14+1.6.1
+	- trinkets 3.10.0
+	- villagerconfig 4.4.11
+	   \-- fiber 0.23.0-2
+	- waystones 21.1.23
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- yet_another_config_lib_v3 3.7.1+1.21.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[02:30:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Cobleverse/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:30:42] [main/INFO]: Compatibility level set to JAVA_21
+[02:30:42] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:43] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[02:30:43] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[02:30:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[02:30:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[02:30:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[02:30:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[02:30:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[02:30:43] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[02:30:43] [main/INFO]: Loaded configuration file for ModernFix 5.24.3+mc1.21.1: 64 options available, 0 override(s) found
+[02:30:43] [main/INFO]: Applying Nashorn fix
+[02:30:43] [main/INFO]: Packet Fixer forge 1.20.5-1.21.X has been applied successfully.
+[02:30:43] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:43] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:43] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:43] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[02:30:43] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[02:30:44] [main/WARN]: Error loading class: net/minecraft/class_350 (java.lang.ClassNotFoundException: net/minecraft/class_350)
+[02:30:44] [main/WARN]: @Mixin target net.minecraft.class_350 was not found mixins.cobblemon-common.json:accessor.EntryListWidgetAccessor from mod cobblemon
+[02:30:44] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[02:30:44] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[02:30:44] [main/WARN]: Error loading class: com/natamus/dismountentity_common_fabric/events/DismountEvent (java.lang.ClassNotFoundException: com/natamus/dismountentity_common_fabric/events/DismountEvent)
+[02:30:44] [main/WARN]: @Mixin target com.natamus.dismountentity_common_fabric.events.DismountEvent was not found cobbleride-fabric.mixins.json:DismountEventMixin from mod cobbleride
+[02:30:44] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[02:30:44] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[02:30:44] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[02:30:44] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:30:44] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[02:30:44] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[02:30:44] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[02:30:44] [main/WARN]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
+[02:30:44] [main/WARN]: @Mixin target net.minecraft.class_918 was not found rctmod.mixins.json:client.ItemRendererMixin from mod rctmod
+[02:30:45] [main/INFO]: Registering config for libjf-translate-v1
+[02:30:45] [main/INFO]: Registering config for respackopts
+[02:30:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02:30:50] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[02:30:55] [main/INFO]: Vanilla bootstrap took 8436 milliseconds
+[02:30:57] [main/INFO]: Registering Mod Items for carved_wood
+[02:30:57] [main/INFO]: Registering Mod Blocks for carved_wood
+[02:30:57] [main/INFO]: Registering Recipe Serializers for carved_wood
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_304 (java.lang.ClassNotFoundException: net/minecraft/class_304)
+[02:30:57] [main/INFO]: [STDOUT]: Registering CobbleCuisine item groups
+[02:30:57] [main/INFO]: [STDOUT]: Registering blocks for cobblecuisine
+[02:30:57] [main/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
+[02:30:57] [main/INFO]: Registering C2S receiver with id cobblefurnies:craft_recipe
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[02:30:57] [main/WARN]: Error loading class: net/minecraft/class_1132 (java.lang.ClassNotFoundException: net/minecraft/class_1132)
+[02:30:58] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[02:30:58] [main/INFO]: Launching Cobblemon 1.6.1 
+[02:30:58] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:boat
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[02:30:58] [main/ERROR]: No data fixer registered for cobblemon:npc
+[02:30:58] [main/INFO]: Starting the Best Spawner...
+[02:30:58] [main/INFO]: Loaded 7 spawning condition types.
+[02:30:59] [main/INFO]: Loaded 6 spawning context types.
+[02:30:59] [main/INFO]: Loaded 2 spawn detail types.
+[02:30:59] [Cobblemon Showdown/INFO]: Starting showdown service...
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/moves.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/battle-actions.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/pokemon.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/abilities.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/side.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/conditions.js
+[02:30:59] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/index.js
+[02:30:59] [Cobblemon Showdown/INFO]: All files are ready!
+[02:31:03] [Cobblemon Showdown/INFO]: Showdown has been started!
+[02:31:03] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/abilities registry
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/moves registry
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/conditions registry
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/held_items registry
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/typecharts registry
+[02:31:03] [main/INFO]: Registered the mega_showdown:showdown/scripts registry
+[02:31:03] [main/INFO]: Registered the cobblemon:molang registry
+[02:31:03] [main/INFO]: Registered the cobblemon:species_features registry
+[02:31:03] [main/INFO]: Registered the cobblemon:global_species_features registry
+[02:31:03] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[02:31:03] [main/INFO]: Registered the cobblemon:action_effects registry
+[02:31:03] [main/INFO]: Registered the cobblemon:moves registry
+[02:31:03] [main/INFO]: Registered the cobblemon:abilities registry
+[02:31:03] [main/INFO]: Registered the cobblemon:brain_presets registry
+[02:31:03] [main/INFO]: Registered the cobblemon:species registry
+[02:31:03] [main/INFO]: Registered the cobblemon:species_additions registry
+[02:31:03] [main/INFO]: Registered the cobblemon:pokeballs registry
+[02:31:03] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[02:31:03] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[02:31:03] [main/INFO]: Registered the cobblemon:spawn_rules registry
+[02:31:03] [main/INFO]: Registered the cobblemon:mechanics registry
+[02:31:03] [main/INFO]: Registered the cobblemon:bag_items registry
+[02:31:03] [main/INFO]: Registered the cobblemon:dialogues registry
+[02:31:03] [main/INFO]: Registered the cobblemon:natural_materials registry
+[02:31:03] [main/INFO]: Registered the cobblemon:fossils registry
+[02:31:03] [main/INFO]: Registered the cobblemon:npc_preset registry
+[02:31:03] [main/INFO]: Registered the cobblemon:npc registry
+[02:31:03] [main/INFO]: Registered the cobblemon:dex_entries registry
+[02:31:03] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
+[02:31:03] [main/INFO]: Registered the cobblemon:dexes registry
+[02:31:03] [main/INFO]: Registered the cobblemon:dex_additions registry
+[02:31:03] [main/INFO]: Registered the cobblemon:flows registry
+[02:31:03] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[02:31:03] [main/INFO]: Registered the cobblemon:pokerods registry
+[02:31:03] [main/INFO]: Registered the cobblemon:berries registry
+[02:31:03] [main/INFO]: Registered the cobblemon:fishing_baits registry
+[02:31:04] [main/INFO]: Mod compatibility check results: {cobbledollars=true, sophisticatedbackpacks=true, cobblenav=true, travelersbackpack=false, waystones=true}
+[02:31:04] [main/INFO]: Detected compatible mod(s) — initializing loot table modifications.
+[02:31:04] [main/INFO]: Cobblemon Additions mod initialized successfully.
+[02:31:04] [main/INFO]: Registered the cobblenav:biome_platforms registry
+[02:31:04] [main/INFO]: Registered the cobbleride:rideable_species registry
+[02:31:04] [main/INFO]: Loading config file found at: /workspaces/Cobleverse/servidor_minecraft/config/cobbleride/config.json
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Checking for config merge.
+[02:31:04] [main/INFO]: Saving config to: /workspaces/Cobleverse/servidor_minecraft/config/cobbleride/config.json
+[02:31:04] [main/INFO]: Registering Item Groups for cobbleversebadges
+[02:31:04] [main/INFO]: Registering Mod Items for cobbleversebadges
+[02:31:04] [main/INFO]: Registering items
+[02:31:04] [main/INFO]: Registering data components
+[02:31:04] [main/INFO]: Registering Mod Items for cozyhome
+[02:31:04] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[02:31:04] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[02:31:04] [main/INFO]: Registering ModBlocks for cozyhome
+[02:31:04] [main/INFO]: Registering block entities for cozyhome
+[02:31:04] [main/INFO]: Registering Item Groups for cozyhome
+[02:31:04] [main/INFO]: Registering Sounds for cozyhome
+[02:31:04] [main/INFO]: Registering Mod Data Components for cozyhome
+[02:31:04] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[02:31:04] [main/INFO]: Successfully Debugify'd your game!
+[02:31:04] [main/INFO]: [FANCYMENU] Loading v3.7.0 in server-side mode on FABRIC!
+[02:31:04] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:31:04] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:31:04] [main/INFO]: Hello Fabric world from Fight or Flight!
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:tracing_bullet
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:arrow_projectile
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:bullet_projectile
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:spike_projectile
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:floating_spike_projectile
+[02:31:04] [main/ERROR]: No data fixer registered for fightorflight:sticky_web
+[02:31:05] [main/INFO]: Registering C2S receiver with id fightorflight:send_command
+[02:31:05] [main/INFO]: Registering C2S receiver with id fightorflight:send_move_slot
+[02:31:05] [main/ERROR]: No data fixer registered for handcrafted
+[02:31:05] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
+[02:31:05] [main/INFO]: New structure size = 512
+[02:31:05] [main/INFO]: Setting up file watchers
+[02:31:05] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[02:31:05] [main/INFO]: ---------------------------
+[02:31:05] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[02:31:05] [main/INFO]:  
+[02:31:05] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[02:31:05] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[02:31:05] [main/INFO]:  
+[02:31:05] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[02:31:05] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[02:31:05] [main/INFO]:  
+[02:31:05] [main/INFO]: Json-smart Copyright © netplex.
+[02:31:05] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[02:31:05] [main/INFO]:  
+[02:31:05] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[02:31:05] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[02:31:05] [main/INFO]: ---------------------------
+[02:31:05] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[02:31:05] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[02:31:05] [main/INFO]: Registering Item Groups for lumymon
+[02:31:05] [main/INFO]: Registering Mod Items for lumymon
+[02:31:05] [main/INFO]: Registering Mod Blocks for lumymon
+[02:31:05] [main/INFO]: Registering Villagers for lumymon
+[02:31:05] [main/INFO]: Registering Block Entities for lumymon
+[02:31:05] [main/INFO]: Registering Screen Handlers for lumymon
+[02:31:05] [main/INFO]: Registering ModRecipes for lumymon
+[02:31:05] [main/INFO]: Registering ModSounds for lumymon
+[02:31:05] [main/INFO]: Registering SummonScheduler for lumymon
+[02:31:05] [main/INFO]: LumyMon v0.4.7-2 - Made by LUMYVERSE
+[02:31:06] [cobblemon Datafixer Bootstrap/INFO]: 2 Datafixer optimizations took 11 milliseconds
+[02:31:06] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
+[02:31:06] [main/INFO]: Registering ModBlocks for moarconcrete
+[02:31:06] [main/INFO]: Loading Noisium.
+[02:31:06] [main/INFO]: I think that's not the only reason Spectrum isn't compatible with Quilt
+[02:31:06] [main/INFO]: [Ping-Wheel] Init
+[02:31:06] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
+[02:31:06] [main/INFO]: Registering ItemGroups for pokeblocks
+[02:31:07] [main/INFO]: Registering ModItems for pokeblocks
+[02:31:07] [main/INFO]: Registering ModBlocks for pokeblocks
+[02:31:07] [ToggleableConfigWatchService/INFO]: Registering config for libjf-config-core-v2
+[02:31:07] [ToggleableConfigWatchService/INFO]: Created config watch service
+[02:31:07] [main/INFO]: Registering mod entities for pokeblocks
+[02:31:07] [main/ERROR]: No data fixer registered for trainer
+[02:31:07] [main/ERROR]: No data fixer registered for trainer_association
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[02:31:08] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[02:31:08] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[02:31:08] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[02:31:08] [main/ERROR]: No data fixer registered for 
+[02:31:08] [main/INFO]: Creating asynchronous mapping cache executor...
+[02:31:08] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[02:31:08] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (47 hour(s) ago, refresh in 1 hour(s))
+[02:31:08] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.1+build.3 are already downloaded
+[02:31:08] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
+[02:31:08] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[02:31:09] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 324ms)
+[02:31:09] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[02:31:09] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 113ms)
+[02:31:09] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 449ms)
+[02:31:09] [Mappings Cache Thread #1/INFO]:   Classes: 7535
+[02:31:09] [Mappings Cache Thread #1/INFO]:   Methods: 27638
+[02:31:09] [Mappings Cache Thread #1/INFO]:   Fields: 32194
+[02:31:09] [Thread-8/INFO]: Shutting down asynchronous mapping cache executor...
+[02:31:09] [Thread-8/INFO]: Injecting into root logger...
+[02:31:09] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[02:31:09] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:31:09] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:31:09] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02:31:09] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[02:31:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:31:14] [Worker-Main-1/INFO]: Loading config file lenientdeath.json5
+[02:31:16] [Worker-Main-1/INFO]: [FOF] Preparing to read move data
+[02:31:16] [Worker-Main-1/INFO]: [FOF] Preparing to read behavior data
+[02:31:17] [main/INFO]: Loaded 4806 recipes
+[02:31:17] [main/INFO]: Loaded 4240 advancements
+[02:31:17] [main/INFO]: Loaded 5 server scripts and 1 client scripts
+[02:31:23] [main/INFO]: Loaded 936 moves
+[02:31:23] [main/INFO]: Loaded 317 abilities
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:attract"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:confide"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:frustration"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:hiddenpower"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:return"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:round"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:snore"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:swagger"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:toxic"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:attract"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:confide"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:frustration"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:hiddenpower"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:return"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:round"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:snore"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:swagger"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:toxic"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:uproar"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:attract"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:confide"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:frustration"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:hiddenpower"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:return"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:round"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:snore"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:swagger"
+[02:31:24] [main/ERROR]: Unable to load entry from learnset: "legacy:toxic"
+[02:31:24] [main/INFO]: Finished additions
+[02:31:26] [main/INFO]: Imported 259 held item IDs from showdown
+[02:31:26] [main/INFO]: Loaded 1038 Pokémon species
+[02:31:26] [main/INFO]: Loaded 25 spawn detail presets.
+[02:31:26] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[02:31:26] [main/INFO]: Loaded 18 fossils
+[02:31:27] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[02:31:27] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[02:31:27] [main/INFO]: Loaded 1 flows and 0 client flows
+[02:31:27] [main/ERROR]: Unknown preset name: village.
+[02:31:27] [main/ERROR]: Unknown preset name: village.
+[02:31:27] [main/ERROR]: Unknown preset name: flowers.
+[02:31:27] [main/ERROR]: Unknown preset name: flowers.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underground.
+[02:31:28] [main/ERROR]: Unknown preset name: underground.
+[02:31:28] [main/ERROR]: Unknown preset name: underground.
+[02:31:28] [main/ERROR]: Unknown preset name: underground.
+[02:31:28] [main/ERROR]: Unknown preset name: flowers.
+[02:31:28] [main/ERROR]: Unknown preset name: underground.
+[02:31:28] [main/ERROR]: Unknown preset name: ruins.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:28] [main/ERROR]: Unknown preset name: underwater.
+[02:31:29] [main/ERROR]: Unknown preset name: water_surface.
+[02:31:29] [main/ERROR]: Unknown preset name: water_surface.
+[02:31:29] [main/ERROR]: Unknown preset name: water_surface.
+[02:31:29] [main/ERROR]: Unknown preset name: underwater.
+[02:31:29] [main/ERROR]: Unknown preset name: underwater.
+[02:31:29] [main/ERROR]: Unknown preset name: village.
+[02:31:29] [main/ERROR]: Unknown preset name: underground.
+[02:31:29] [main/ERROR]: Unknown preset name: ruins.
+[02:31:29] [main/INFO]: Loaded 69 berries
+[02:31:29] [main/INFO]: Loaded 17 biome platforms
+[02:31:29] [main/INFO]: Loaded 237 Pokémon species with ride details
+[02:31:29] [main/INFO]: Loading configuration
+[02:31:29] [main/INFO]: [FOF] 72 move data files processed.
+[02:31:29] [main/INFO]: [FOF] 0 behavior data files processed.
+[02:31:30] [main/INFO]: [REI] ########################################
+[02:31:30] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[02:31:30] [main/INFO]: [REI] Plugins (6):
+[02:31:30] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[02:31:30] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI] ########################################
+[02:31:30] [main/INFO]: [REI] ========================================
+[02:31:30] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[02:31:30] [main/INFO]: [REI] Plugins (6):
+[02:31:30] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[02:31:30] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI] ========================================
+[02:31:30] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.450 ms, totaling 73.79 ms.
+[02:31:30] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 2.556 ms, totaling 18.16 ms.
+[02:31:30] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[02:31:30] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[02:31:30] [main/INFO]: [REI] Plugins (6):
+[02:31:30] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[02:31:30] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[02:31:30] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[02:31:30] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[02:31:30] [main/INFO]: [REI] Plugins (6):
+[02:31:30] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[02:31:30] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[02:31:30] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:31:30] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[02:31:30] [main/INFO]: [REI] REIPlugin finished post-reload for END in 2.952 ms, totaling 48.60 ms.
+[02:31:30] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 2.594 ms, totaling 13.50 ms.
+[02:31:30] [Thread-10/INFO]: Loaded 48 translation keys
+[02:31:30] [main/INFO]: Loaded 1 trades
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 12: Biome 'terralith:alpha_islands' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 13: Biome 'terralith:alpha_islands_winter' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 14: Biome 'terralith:basalt_cliffs' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 15: Biome 'terralith:cave/infested_caves' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 16: Biome 'terralith:cave/mantle_caves' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 17: Biome 'terralith:cave/thermal_caves' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 18: Biome 'terralith:cave/tuff_caves' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 19: Biome 'terralith:cold_shrubland' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 20: Biome 'terralith:desert_spires' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 21: Biome 'terralith:emerald_peaks' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 22: Biome 'terralith:fractured_savanna' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 23: Biome 'terralith:frozen_cliffs' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 24: Biome 'terralith:granite_cliffs' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 25: Biome 'terralith:gravel_desert' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 26: Biome 'terralith:haze_mountain' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 27: Biome 'terralith:highlands' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 28: Biome 'terralith:hot_shrubland' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 29: Biome 'terralith:jungle_mountains' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 30: Biome 'terralith:painted_mountains' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 31: Biome 'terralith:rocky_shrubland' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 32: Biome 'terralith:savanna_badlands' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 33: Biome 'terralith:scarlet_mountains' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 34: Biome 'terralith:shield_clearing' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 35: Biome 'terralith:skylands_autumn' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 36: Biome 'terralith:skylands_spring' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 37: Biome 'terralith:skylands_summer' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 38: Biome 'terralith:skylands_winter' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 39: Biome 'terralith:snowy_maple_forest' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 40: Biome 'terralith:stony_spires' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 41: Biome 'terralith:tropical_jungle' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 42: Biome 'terralith:warped_mesa' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 43: Biome 'terralith:white_mesa' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 44: Biome 'terralith:windswept_spires' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 45: Biome 'terralith:wintry_lowlands' does not exist, ignoring rule
+[02:31:30] [main/WARN]: [BiomeReplacer] Config issue on line 46: Biome 'terralith:yellowstone' does not exist, ignoring rule
+[02:31:30] [main/INFO]: [BiomeReplacer] Loaded 0 rules (0 direct, 0 tag-based) and ignored 35
+[02:31:30] [main/INFO]: [BiomeReplacer] No rules found, not replacing anything
+[02:31:30] [main/WARN]: Initial datapack load took 20.07 s
+[02:31:30] [main/INFO]: Applied 788 biome modifications to 64 of 64 new biomes in 35.13 ms
+[02:31:30] [Server thread/INFO]: Loading default shop config...
+[02:31:30] [Server thread/INFO]: Default shop config loaded!
+[02:31:30] [Server thread/INFO]: Loading bank config...
+[02:31:30] [Server thread/INFO]: Bank config loaded!
+[02:31:30] [Server thread/WARN]: Error loading class: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition (java.lang.ClassNotFoundException: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition)
+[02:31:30] [Server thread/INFO]: Registered 8 collectors and 4 block collectors
+[02:31:30] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:31:30] [Server thread/INFO]: Loading properties
+[02:31:30] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:30] [Server thread/INFO]: Generating keypair
+[02:31:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:31:30] [Server thread/INFO]: Using epoll channel type
+[02:31:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:31:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:31:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:31:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:31:31] [Server thread/INFO]: Preparing level "world"
+[02:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:31:31] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[02:31:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:32] [Server thread/INFO]: Time elapsed: 1126 ms
+[02:31:32] [Server thread/INFO]: Done (1.708s)! For help, type "help"
+[02:31:32] [Server thread/WARN]: Dedicated server took 54.469 seconds to load
+[02:31:32] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02:31:32] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[02:31:32] [Server thread/INFO]: Data pack initialized: rctmod
+[02:31:32] [Server thread/INFO]: Data pack initialized: COBBLEVERSE-RCT-DP-v13.zip
+[02:31:41] [Server thread/INFO]: Registered 1664 trainers
+[02:31:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8439ms or 168 ticks behind
+[02:31:41] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[02:31:45] [Server thread/INFO]: toretoputo[/127.132.182.4:60863] logged in with entity id 27 at (-1240.9244376560196, 96.0, -2176.9490942312414)
+[02:31:45] [Server thread/INFO]: toretoputo joined the game
+[02:31:45] [Server thread/INFO]: Registered trainer player: toretoputo
+[02:31:49] [Server thread/INFO]: Channel update: toretoputo -> default
+[02:31:49] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: toretoputo
+[02:31:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3136ms or 62 ticks behind
+[02:32:01] [Server thread/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[02:32:01] [Server thread/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[02:32:26] [Server thread/INFO]: Fufazo[/127.67.51.124:41101] logged in with entity id 457 at (405.9541281594039, 63.0, -817.2602104573217)
+[02:32:26] [Server thread/INFO]: Fufazo joined the game
+[02:32:26] [Server thread/INFO]: Registered trainer player: Fufazo
+[02:32:27] [Server thread/INFO]: Channel update: Fufazo -> default
+[02:32:27] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: Fufazo
+[02:32:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[02:32:38] [Server thread/INFO]: sebadosz[/127.140.111.193:49735] logged in with entity id 635 at (-4506.300000011921, 101.0, -5483.902435511095)
+[02:32:38] [Server thread/INFO]: sebadosz joined the game
+[02:32:38] [Server thread/INFO]: Registered trainer player: sebadosz
+[02:32:40] [Server thread/INFO]: Tomva[/127.119.4.47:41707] logged in with entity id 636 at (86.54535181702026, 67.17675927506424, -617.8205595759093)
+[02:32:40] [Server thread/INFO]: Tomva joined the game
+[02:32:40] [Server thread/INFO]: Registered trainer player: Tomva
+[02:32:40] [Server thread/WARN]: toretoputo moved too quickly! -8.823999743823606,2.003016261509046,-4.442706611732774
+[02:32:40] [Server thread/INFO]: Channel update: Tomva -> default
+[02:32:40] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: Tomva
+[02:32:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2370ms or 47 ticks behind
+[02:32:45] [Server thread/INFO]: Channel update: sebadosz -> default
+[02:32:58] [Server thread/INFO]: [Tomva: Teleported Tomva to toretoputo]
+[02:33:00] [Server thread/INFO]: [Fufazo: Teleported Fufazo to toretoputo]
+[02:33:07] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: sebadosz
+[02:33:50] [Server thread/INFO]: Fufazo was blown up by Creeper
+[02:33:50] [Server thread/INFO]: [Fufazo: [LD] You died at -1251, 96, -2167, in minecraft:overworld.]
+[02:33:50] [Server thread/INFO]: [Fufazo: Teleported Fufazo to 118.500000, 68.500000, -572.500000]
+[02:34:02] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -1250.500000, 99.500000, -2167.500000]
+[02:34:33] [Server thread/INFO]: [Fufazo: Teleported Fufazo to 119.500000, 68.500000, -572.500000]
+[02:34:37] [Server thread/INFO]: Tomva has made the advancement [Full House]
+[02:34:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[02:34:41] [Server thread/INFO]: Tomva lost connection: Disconnected
+[02:34:41] [Server thread/INFO]: Tomva left the game
+[02:34:41] [Server thread/INFO]: Unregistered trainer player: Tomva
+[02:34:55] [Server thread/INFO]: [Fufazo: Teleported Fufazo to 397.500000, 66.500000, -989.500000]
+[02:35:48] [Server thread/INFO]: [Fufazo: Teleported Fufazo to toretoputo]
+[02:36:07] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=north,half=upper] but failed at location class_2338{x=-4303, y=67, z=-5733}
+[02:36:07] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=north,half=upper] but failed at location class_2338{x=-4299, y=67, z=-5733}
+[02:36:37] [Server thread/INFO]: [Fufazo: Teleported Fufazo to toretoputo]
+[02:37:14] [Server thread/INFO]: Fufazo has made the advancement [The Rolling Stone]
+[02:38:34] [Server thread/INFO]: Fufazo has made the advancement [advancements.cobbleverse.kanto.defeat_brock]
+[02:40:00] [Server thread/INFO]: [toretoputo: Teleported toretoputo to sebadosz]
+[02:40:33] [Server thread/WARN]: toretoputo moved too quickly! -2.91369900267091,-1.2491870787446828,-9.7265657041944
+[02:41:18] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4679545826647882
+[02:41:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.202897054919049
+[02:41:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0919910683596754
+[02:41:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0693513632131726
+[02:41:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.0967439007790745
+[02:41:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.47979386980205163
+[02:41:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2162220498712486
+[02:41:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.089951041653876
+[02:41:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0371929847178762
+[02:41:32] [Server thread/WARN]: sebadosz moved wrongly!
+[02:42:30] [Server thread/INFO]: sebadosz has made the advancement [Sweet Tooth]
+[02:43:23] [Server thread/INFO]: sebadosz has made the advancement [Hard Work and Dedication]
+[02:48:15] [Server thread/INFO]: sebadosz has made the advancement [advancements.cobbleverse.kanto.defeat_brock]
+[02:49:24] [Server thread/INFO]: Fufazo has completed the challenge [Lucky Color]
+[02:50:27] [Server thread/INFO]: sebadosz has made the advancement [Getting an Upgrade]
+[02:50:56] [Server thread/INFO]: sebadosz has made the advancement [Isn't It Iron Pick]
+[02:51:45] [Server thread/INFO]: toretoputo has made the advancement [advancements.cobbleverse.kanto.defeat_brock]
+[02:52:05] [Server thread/INFO]: Named entity TrainerMob['Brock'/4121, l='ServerLevel[world]', x=-4293.05, y=66.00, z=-5721.35] died: Brock was slain by Puto gordo
+[02:54:34] [Server thread/INFO]: toretoputo has made the advancement [Isn't It Iron Pick]
+[02:55:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5044574614976227
+[02:55:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5980422563683874
+[02:55:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.224690779627224
+[02:55:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8452755929543514
+[02:55:19] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5646894851693673
+[02:55:20] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5446366599488783
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3101882836969594
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0627429235493064
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6172484849430507
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6173198969599802
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.632075271064517
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.29456674224758217
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0698060907574463
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0603720644210455
+[02:55:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0772865581085638
+[02:55:22] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.7912324402246327
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.455191603410185,-3.0,3.0028642092216273
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -10.404153262280033,-3.0,2.9669006982665564
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -11.392123715173057,-3.0,2.947565263392221
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -12.400966852885176,-3.0,2.9368509489644907
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -13.4209773173352,-3.0,2.9299669690963697
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -14.446959703768243,-3.0,2.924119681923969
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -15.476126097727047,-3.0,2.9170316404397454
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -16.506965450441385,-3.0768320014953616,2.9065175548508364
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -17.106522550492173,-3.227453458663007,2.8988251825416
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -17.683146614165707,-3.4489423104376016,2.8666250799042814
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -18.238777741114973,-3.738492209317357,2.866457945670618
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -18.775408603842607,-3.0,2.8398078642130145
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -19.663780879381193,-3.0,2.547415286213379
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.615919887596647,-3.0768320014953616,2.3338255141427453
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -21.17308452360976,-3.227453458663007,2.2139522651399943
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -21.717758114066328,-3.4489423104376016,2.1023974990167176
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -22.251408387117863,-3.738492209317357,1.9996697054607466
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -22.775297290956587,-4.093407939109099,1.9060871574309886
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -23.290513122395623,-4.511101014130546,1.8217371413814476
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -23.798001437422954,-4.989085452684037,1.7468498739301026
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -24.29856931880704,-5.0,1.6817684777818727
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -25.2243788312594,-5.0,1.6513827763243967
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -26.198785434649835,-5.0,1.668704737346843
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -27.19898030564582,-5.0,1.714492724871377
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -19.28330016912969,-2.261507790682643,-1.2667835760694857
+[02:55:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.304437314247934,-2.261507790682643,-1.1945544328347637
+[02:55:35] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -21.329430057250192,-2.3383397921780045,-1.1167706638149753
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6464553511477789
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5599909790662423
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7650650664745626
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.758973368990155
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8042205267133795
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8288628002128462
+[02:55:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9157059177714473
+[02:55:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9484853339854453
+[02:55:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9813045683549717
+[02:55:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.5819654994929806
+[02:55:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.830823756764858,4.0,2.0460686999903714
+[02:55:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -10.530485724535083,4.0,1.964865774139298
+[02:55:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32438635007770245
+[02:55:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32438635007770245
+[02:55:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3140445461640411
+[02:55:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1492918270982955
+[02:55:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9125904721377083
+[02:55:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.636025523960143
+[02:55:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.3472112191630004
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.305777811728035
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.281740256507419
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.2841366532574625
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.2613423915533417
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2608864210312163
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2537478757478766
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.244790043644798
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.30945443304108267
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3302950817216583
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3153909280714771
+[02:56:04] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.37983295001006506
+[02:56:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32085466264221485
+[02:56:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0280276133636348
+[02:56:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4766538043343189
+[02:56:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3161737119895675
+[02:56:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.268325770733611
+[02:56:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.2577281746295834
+[02:56:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.219309167046206
+[03:00:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9531032766503673
+[03:00:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3640107036067093
+[03:01:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4443166932244367
+[03:01:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3134082226119972
+[03:01:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.187214498974413
+[03:01:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6956480889401746
+[03:01:15] [Server thread/WARN]: sebadosz moved wrongly!
+[03:02:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6607622376782274
+[03:02:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5229531477522187
+[03:02:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.46858051176427784
+[03:02:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9227425848066916
+[03:02:34] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1711984656411472
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.31776967791529387
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1890732946754952
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.133952552216897
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0423870880267714
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7796721778862548
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8377415583811398
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8240323870910515
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.880228071782426
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8032392745266179
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.765524565876376
+[03:02:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8828776893940358
+[03:02:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.887817496704315
+[03:02:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.425540751257927
+[03:02:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.7132657437244916
+[03:03:47] [Server thread/WARN]: sebadosz moved wrongly!
+[03:04:17] [Server thread/INFO]: sebadosz has made the advancement [There's a Leek in the Boat!]
+[03:04:53] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:centers
+[03:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.810323920512019
+[03:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8145413104084582
+[03:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.818727340548776
+[03:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.8228965907082966
+[03:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8270568622351675
+[03:05:36] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9459414120942711
+[03:05:36] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9534945013483593
+[03:05:36] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.963290408645662
+[03:05:36] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.550529937781903
+[03:05:36] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.120969818577578
+[03:05:44] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=north,half=upper] but failed at location class_2338{x=-3771, y=78, z=-645}
+[03:05:44] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=north,half=upper] but failed at location class_2338{x=-3775, y=78, z=-645}
+[03:05:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4188051666958472
+[03:05:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2068221764843656
+[03:05:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.628474367058061
+[03:05:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.854092047396307
+[03:05:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9748155698140408
+[03:06:48] [Server thread/INFO]: Fufazo has made the advancement [Full House]
+[03:06:55] [Server thread/INFO]: [toretoputo: Teleported toretoputo to sebadosz]
+[03:07:38] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -1801.500000, 93.500000, -353.500000]
+[03:07:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6187895451021177
+[03:07:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5697373046050416
+[03:07:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.550013504996059
+[03:07:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.44694881698706
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7929880556098396
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7371467161528926
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6869917441526923
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1952348807685667
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4671856498966918
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6127010843438256
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.587396086355966
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6945890346414672
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.30870520728376505
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5786599378957362
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4019040524613047
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2834004501196432
+[03:07:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.194466018285766
+[03:07:58] [Server thread/INFO]: [toretoputo: Teleported sebadosz to toretoputo]
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3424959193835093
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1443152169676978
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9595734141626053
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.782022498596234
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6083192834207694
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.39414791437911845
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.39032388044279287
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1951860933290845
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.36156906540099953
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35670762263771394
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35143167888782045
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.33927480041938907
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.33351779390704905
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3338103689916352
+[03:08:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0983940237515526
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32647555845869647
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.323886386209324
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0766116829709063
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2894709131073796
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2661835429862549
+[03:08:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2534436405967426
+[03:08:38] [Server thread/INFO]: toretoputo has made the advancement [Suit Up]
+[03:10:25] [Server thread/INFO]: sebadosz lost connection: Disconnected
+[03:10:25] [Server thread/INFO]: sebadosz left the game
+[03:10:25] [Server thread/INFO]: Unregistered trainer player: sebadosz
+[03:10:25] [Server thread/INFO]: No battle could be found with the id: 282ae4c6-dbfc-402d-bfa1-7e5faa650d60
+[03:10:25] [Server thread/INFO]: No battle could be found with the id: 282ae4c6-dbfc-402d-bfa1-7e5faa650d60
+[03:13:25] [Server thread/INFO]: sebadosz[/127.140.111.193:41829] logged in with entity id 15824 at (-3906.4596499726485, 65.20000001192093, -934.5196295920947)
+[03:13:25] [Server thread/INFO]: sebadosz joined the game
+[03:13:25] [Server thread/INFO]: Registered trainer player: sebadosz
+[03:13:26] [Server thread/INFO]: Fufazo has made the advancement [New Angles for Angling]
+[03:13:29] [Server thread/INFO]: Channel update: sebadosz -> default
+[03:13:32] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: sebadosz
+[03:14:45] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=west,half=upper] but failed at location class_2338{x=-4261, y=77, z=-1137}
+[03:14:45] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=west,half=upper] but failed at location class_2338{x=-4261, y=77, z=-1141}
+[03:14:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3602095569985977
+[03:14:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.081148341444617
+[03:14:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5497405591650022
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6073793514829049
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6244842774547124
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9835010431263527
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0713169737985027
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0140187448237157
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8708125441471566
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6775675788278477
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.783820389423454
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.674054888597311
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9069034771819133
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.809014600723458
+[03:15:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.721717298182739
+[03:15:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3815946378990702
+[03:15:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2672626441417378
+[03:15:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.194857928720012
+[03:15:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0308661836088504
+[03:15:49] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.8154029514295926
+[03:15:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6371101081422239
+[03:15:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6125146294834849
+[03:15:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9940005823564206
+[03:17:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4028685480270724
+[03:17:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3837214562754525
+[03:17:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.366767176360554
+[03:17:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.3510591182275675
+[03:17:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3636111372316009
+[03:17:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3317801254388542
+[03:17:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.2999545604980085
+[03:17:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.8180053973819668
+[03:17:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0952040713791575
+[03:17:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5232371373317619
+[03:17:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3087745918990095
+[03:17:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.1271881145414513
+[03:17:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0374083643693948
+[03:17:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7205451420331883
+[03:18:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3143824559456334
+[03:18:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.69852588858339
+[03:18:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8706293115901644
+[03:18:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.34894711407014256
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5848866153382914
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0596754582820722
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3137255018727956
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4496626149866643
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9713135193533162
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6993316338430304
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0888796117915263
+[03:18:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.2973189680424184
+[03:19:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.34153503290144727
+[03:19:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2643653001041457
+[03:19:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7581533768343434
+[03:19:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0223695316199155
+[03:19:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.163746328144043
+[03:19:29] [Server thread/INFO]: No battle could be found with the id: 6ba4b12b-88c7-4ba5-8a41-4beb7e54ecbe
+[03:19:29] [Server thread/INFO]: No battle could be found with the id: 6ba4b12b-88c7-4ba5-8a41-4beb7e54ecbe
+[03:19:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3913911228028155
+[03:19:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8474402755355186
+[03:19:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0892540618287967
+[03:19:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.302694579965646
+[03:19:33] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4908318168318146
+[03:19:50] [Server thread/INFO]: No battle could be found with the id: 1d9d57c1-d064-44de-be12-6b6735780f0e
+[03:19:50] [Server thread/INFO]: No battle could be found with the id: 1d9d57c1-d064-44de-be12-6b6735780f0e
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.391174162601601
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2486319558347532
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7074405251296412
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9529398429031062
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5075412753003548
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9873089418379095
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2440230546671955
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3813856581145956
+[03:19:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4106040665028559
+[03:20:10] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=south,half=upper] but failed at location class_2338{x=-5616, y=68, z=-1720}
+[03:20:10] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=south,half=upper] but failed at location class_2338{x=-5612, y=68, z=-1720}
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.33088099978340324
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2427947561067725
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4613126614683551
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.091408762528772
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.747070035017714
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6314875386015046
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6314875386015046
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6314875386015046
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7670654003486561
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0000701765357007
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6314875386015046
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9373479373061855
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3981355872801942
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6314875386015046
+[03:20:37] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.1550874178137747
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4248455529545936
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.46152555978956383
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5349585188041728
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5969656454011895
+[03:20:41] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3561150436287335
+[03:20:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35857341315795566
+[03:20:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5
+[03:20:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5
+[03:20:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9614950196348673
+[03:20:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6699268230581765
+[03:20:51] [Server thread/INFO]: [toretoputo: Teleported toretoputo to sebadosz]
+[03:20:51] [Server thread/INFO]: No battle could be found with the id: d0ef1973-c199-42e4-917a-413040669298
+[03:20:51] [Server thread/INFO]: No battle could be found with the id: d0ef1973-c199-42e4-917a-413040669298
+[03:25:51] [Server thread/INFO]: toretoputo has made the advancement [advancements.cobbleverse.kanto.defeat_misty]
+[03:30:10] [Server thread/INFO]: sebadosz has made the advancement [advancements.cobbleverse.kanto.defeat_misty]
+[03:32:15] [Server thread/INFO]: sebadosz has made the advancement [Local Apothecary]
+[03:32:15] [Server thread/INFO]: Fufazo has made the advancement [Sweet Tooth]
+[03:33:44] [Server thread/INFO]: [toretoputo: Banned sebadosz: Banned by an operator.]
+[03:33:44] [Server thread/INFO]: sebadosz lost connection: You are banned from this server
+[03:33:44] [Server thread/INFO]: sebadosz left the game
+[03:33:44] [Server thread/INFO]: Unregistered trainer player: sebadosz
+[03:33:44] [Server thread/WARN]: handleDisconnection() called twice
+[03:33:48] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:41019): You are banned from this server.
+Reason: Banned by an operator.
+[03:33:48] [Server thread/INFO]: sebadosz (/127.140.111.193:41019) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:33:48] [Server thread/WARN]: handleDisconnection() called twice
+[03:33:52] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:43815): You are banned from this server.
+Reason: Banned by an operator.
+[03:33:52] [Server thread/INFO]: sebadosz (/127.140.111.193:43815) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:33:52] [Server thread/WARN]: handleDisconnection() called twice
+[03:33:59] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:45175): You are banned from this server.
+Reason: Banned by an operator.
+[03:33:59] [Server thread/INFO]: sebadosz (/127.140.111.193:45175) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:33:59] [Server thread/WARN]: handleDisconnection() called twice
+[03:34:10] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:55159): You are banned from this server.
+Reason: Banned by an operator.
+[03:34:10] [Server thread/INFO]: sebadosz (/127.140.111.193:55159) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:34:11] [Server thread/WARN]: handleDisconnection() called twice
+[03:34:17] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:33413): You are banned from this server.
+Reason: Banned by an operator.
+[03:34:17] [Server thread/INFO]: sebadosz (/127.140.111.193:33413) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:34:17] [Server thread/WARN]: handleDisconnection() called twice
+[03:34:21] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:42691): You are banned from this server.
+Reason: Banned by an operator.
+[03:34:21] [Server thread/INFO]: sebadosz (/127.140.111.193:42691) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:34:21] [Server thread/WARN]: handleDisconnection() called twice
+[03:34:30] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:50995): You are banned from this server.
+Reason: Banned by an operator.
+[03:34:30] [Server thread/INFO]: sebadosz (/127.140.111.193:50995) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[03:34:30] [Server thread/WARN]: handleDisconnection() called twice
+[03:34:34] [Server thread/INFO]: [toretoputo: Unbanned sebadosz]
+[03:34:40] [Server thread/INFO]: sebadosz[/127.140.111.193:34863] logged in with entity id 24188 at (-5773.649994188438, 70.20000001192093, -1647.8477574374829)
+[03:35:22] [Server thread/INFO]: Connection closed during protocol change
+[03:35:23] [Server thread/INFO]: sebadosz joined the game
+[03:35:23] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity PokemonEntity['Purugly'/24189, l='ServerLevel[world]', x=-5773.65, y=70.00, z=-1647.85] as it would cause deadlock
+[03:35:23] [Server thread/INFO]: Registered trainer player: sebadosz
+[03:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 43424ms or 868 ticks behind
+[03:35:23] [Server thread/WARN]: literal{sebadosz} can't be found in Incubator Ability Registry. (remove)
+[03:35:23] [Server thread/INFO]: sebadosz lost connection: Disconnected
+[03:35:23] [Server thread/INFO]: sebadosz left the game
+[03:35:23] [Server thread/INFO]: Unregistered trainer player: sebadosz
+[03:35:23] [Server thread/WARN]: Fufazo moved too quickly! 0.8371714037079983,0.0,10.21124934660168
+[03:35:23] [Server thread/WARN]: toretoputo moved too quickly! 8.565298308825732,2.7531999805212024,-4.690378596753362
+[03:35:26] [Server thread/INFO]: sebadosz[/127.140.111.193:43029] logged in with entity id 24217 at (-5773.649994188438, 70.20000001192093, -1647.8477574374829)
+[03:35:26] [Server thread/INFO]: sebadosz joined the game
+[03:35:26] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity PokemonEntity['Purugly'/24218, l='ServerLevel[world]', x=-5773.65, y=70.00, z=-1647.85] as it would cause deadlock
+[03:35:26] [Server thread/INFO]: Registered trainer player: sebadosz
+[03:35:26] [Server thread/INFO]: Channel update: sebadosz -> default
+[03:35:26] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: sebadosz
+[03:35:28] [Server thread/INFO]: [toretoputo: Teleported sebadosz to toretoputo]
+[03:36:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.43831666788810253
+[03:36:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.560802676160165
+[03:36:22] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[03:36:22] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2815054191460149
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2328931256497526
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.189566364269922
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.1847875387156566
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.303245976510949
+[03:36:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3156894351650408
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32728829142251925
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.338869317962235
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35626135244820034
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3676751175780737
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4224012581335046
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.4977733768891994
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.41298976417601807
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.41544630487078393
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4248193861130858
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.522057069791117
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4384685473578429
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.43626734018198476
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.43983645605021593
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5470055087625951
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6574754713337825
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.45298697158341383
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4668218279566645
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.48288102130482
+[03:36:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6723991096432655
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5526041786006317
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7726006891543875
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5622697843300557
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5591529243092737
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7769297980162637
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5548625391202222
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7753926722598408
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5542099640206288
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.777682727919455
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.003773019313485
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.135957630254779
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 5.093037486930362
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 5.966505437742292
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9502076531582588
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.944114727472572
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.404367080456669
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.401739904737539
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.395339126338017
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5830769284471506
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.48677155747191136
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5282004332839279
+[03:36:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5484703440397425
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5377452392849591
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.66718295809369
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4604212112235473
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4352575213833916
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.40028984337459406
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3687379736793446
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4228148288830198
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.45191602884187887
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.47773411285015754
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6534489370287702
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5179394333863456
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4404932595234641
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3988121857655642
+[03:36:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4463520996305306
+[03:36:33] [Server thread/INFO]: sebadosz has made the advancement [Ice Bucket Challenge]
+[03:36:36] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.4024976633827464
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.29598605420710555
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3000157227641012
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.30425484025340666
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3085953250063085
+[03:36:44] [Server thread/INFO]: No battle could be found with the id: 43bcbca4-5766-41fd-a177-5a6827188c71
+[03:36:44] [Server thread/INFO]: No battle could be found with the id: 43bcbca4-5766-41fd-a177-5a6827188c71
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.330652756751052
+[03:36:44] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3229870124168883
+[03:36:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.341905877632394
+[03:36:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35315947035110185
+[03:36:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.359236820335127
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.3953839856558261
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.35682313940310467
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.31776071104832226
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 1.278762940219167
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 2.2396542814240092
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.3567442142320779
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.357043285218424
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.31397839001419925
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.3118176991092696
+[03:36:48] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 1.1938839151544016
+[03:36:56] [Server thread/WARN]: toretoputo moved wrongly!
+[03:37:00] [Server thread/INFO]: No battle could be found with the id: f5a184f8-522b-480f-8394-c7422e70e2f3
+[03:37:00] [Server thread/INFO]: No battle could be found with the id: f5a184f8-522b-480f-8394-c7422e70e2f3
+[03:37:10] [Server thread/INFO]: [Fufazo: Teleported Fufazo to toretoputo]
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.871971170015513
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8392833337011325
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.7760685790753996
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.6965194791027898
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6082301966062005
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7546419036675616
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6591735162237455
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8102446256248186
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8413355219277037
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8516992790091535
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.8709646915322082
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8716363944422483
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8741850334017727
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8755487592948157
+[03:37:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8762784618302248
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8766689111084816
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8174337148534505
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.755563973641074
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7687784734598608
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7597036927709269
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6669437677551286
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6310297540526335
+[03:37:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3634710730389088
+[03:37:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5264274917826697
+[03:37:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.506707962576911
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.509876408404125
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.0466518427451774
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.333869675513597
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.4875542113222764
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.04842765288322
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.827179759441606
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.484256517688209
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.441972141043152
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.954426676310959
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.2286308808916147
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.375352083720827
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.453859674049454
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.495867520362026
+[03:37:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.518345081377447
+[03:37:21] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -4.624374322169388,0.9231679985046384,-9.185483640180792
+[03:37:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.545124057499379
+[03:37:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5781208308371788
+[03:37:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6948528813245503
+[03:37:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8595057935681325
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0838876956731838
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1079824550820376
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.33474601484749655
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5594123931082322
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7775680105892206
+[03:37:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2522921845493329
+[03:37:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5521167207716644
+[03:37:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.573755341611104
+[03:37:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.5930884235854137
+[03:37:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.6096116358912695
+[03:37:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.6237922846389665
+[03:37:32] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -5486.500000, 71.500000, -1761.500000]
+[03:37:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8248199601775923
+[03:37:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8489938310062826
+[03:37:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.860830529282339
+[03:37:39] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.799121305992685
+[03:37:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7087317309942591
+[03:37:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1931277856488123
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8785942174727097
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3848978156465819
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6558107764249144
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8007709003159107
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7767614379845327
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7238795440998729
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.678752931258714
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6380568265922193
+[03:37:50] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.151361214529061
+[03:38:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4330573326465128
+[03:38:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.189192369360626
+[03:38:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.953337398937947
+[03:38:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.398171394117071
+[03:38:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.830829587711378
+[03:38:27] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -5616.500000, 71.500000, -1738.500000]
+[03:38:38] [Server thread/INFO]: No battle could be found with the id: 7050d499-7847-4722-a31a-6a623a34cdab
+[03:38:38] [Server thread/INFO]: No battle could be found with the id: 7050d499-7847-4722-a31a-6a623a34cdab
+[03:38:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.35870797243114794
+[03:38:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:38:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:38:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.368970079306564
+[03:38:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9862532688905394
+[03:38:54] [Server thread/INFO]: No battle could be found with the id: 51e46a0c-4afc-4a29-89c8-02fcd2ba40ea
+[03:38:54] [Server thread/INFO]: No battle could be found with the id: 51e46a0c-4afc-4a29-89c8-02fcd2ba40ea
+[03:38:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.27746895171452673
+[03:38:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7281207565028796
+[03:38:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.001914856194801
+[03:38:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1504256006573634
+[03:38:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3976731222237504
+[03:38:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.98216602586308
+[03:38:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.716693022203799
+[03:38:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7223108717298601
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6605107870068423
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6240789495359422
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6137525622484645
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8796711409672753
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.909286439751213
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9298383364612164
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9499459311896317
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.4214290754557624
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9499459311896317
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6671470991755086
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.9499459311896317
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.7986259145795884
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.7176575906869402
+[03:39:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6743330549061284
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7060549926463864
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7364323946089826
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.766904248308947
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7974327377683039
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.737171942495479
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2581853821980076
+[03:39:09] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5533132473829028
+[03:39:10] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7112302838286269
+[03:39:13] [Worker-Main-2/WARN]: Empty or non-existent pool: bca:general_decor
+[03:39:13] [Worker-Main-2/WARN]: Empty or non-existent pool: bca:centers
+[03:39:15] [Worker-Main-2/WARN]: Empty or non-existent pool: bca:rare_structures
+[03:39:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4263751443495494
+[03:39:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4194293304085477
+[03:39:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4062190568461119
+[03:39:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3859397231126422
+[03:39:23] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.3590423724706335
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3701108551258585
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9255160901529962
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5377849350661563
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.29014489045039227
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1387232473634867
+[03:39:30] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9204490278925732
+[03:39:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5038311294911182
+[03:39:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.536457146378325
+[03:39:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5691946719143743
+[03:39:58] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6019918635051908
+[03:39:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6348209525904167
+[03:39:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6676671093887308
+[03:39:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2786578300920155
+[03:39:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1391510250596184
+[03:39:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6468881259111185
+[03:40:00] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.146973303062623
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3339026687764756
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.450166749449636
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.038100685756035
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8176123507846569
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.699633438804085
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6365052752489646
+[03:40:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6027266535702438
+[03:40:05] [Server thread/WARN]: sebadosz moved wrongly!
+[03:40:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.47466416576753545
+[03:40:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3649161962666767
+[03:40:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.46472207365331997
+[03:40:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.44655601238082454
+[03:40:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.265328416236116
+[03:40:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6995301926931461
+[03:40:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2532524110006307
+[03:40:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3445608809843179
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4045628716412466
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7093778890039175
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.46029983380003614
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3407095601214678
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8618995175229429
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8935346949342602
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9173905735556218
+[03:40:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9454067508136177
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9756697433608679
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9426661211309693
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:40:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9998388649273693
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5224266541936231
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5531508538556409
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5848703828246471
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.617056117896027
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.649399605189501
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6817670525715585
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5581838693265126
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5585491188726337
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5908897545045875
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6233382222062573
+[03:40:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6556347601663219
+[03:40:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9306152919716624
+[03:40:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9580964421843419
+[03:40:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.987300010916897
+[03:41:40] [Server thread/INFO]: [toretoputo: Teleported toretoputo to sebadosz]
+[03:42:09] [Worker-Main-1/WARN]: Empty or non-existent pool: bca:centers
+[03:42:09] [Worker-Main-1/WARN]: Empty or non-existent pool: bca:rare_structures
+[03:42:43] [Server thread/INFO]: No battle could be found with the id: fb28113a-73b1-4fd4-b36e-b7203b7d53fc
+[03:42:43] [Server thread/INFO]: No battle could be found with the id: fb28113a-73b1-4fd4-b36e-b7203b7d53fc
+[03:42:50] [Server thread/WARN]: sebadosz moved wrongly!
+[03:43:24] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[natural=false,facing=north,waterlogged=false,part=top,on=false] but failed at location class_2338{x=-5782, y=82, z=-3308}
+[03:43:24] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[natural=false,facing=south,waterlogged=false,part=top,on=false] but failed at location class_2338{x=-5781, y=70, z=-3300}
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.42142848363073426
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.308508617687039
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2063836337883913
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.110100005925233
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.389583334326744
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.389583334326744
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.389583334326744
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.389583334326744
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.389583334326744
+[03:43:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.389583334326744
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.31561308232448937
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2224768259044365
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.204514830832657
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.2107791240704966
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.22860203011889
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 5.252207589598561
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7559840521617158
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.753044460625322
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7472112605933976
+[03:43:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7416023146379483
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7315884443876561
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2761205794655812
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5695686636029962
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7268385053287116
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8110412167605074
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8561086967765543
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8802266379257342
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8931325523685967
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9000384973957232
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9026573036173509
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9026573036173509
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9026573036173509
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9026573036173509
+[03:43:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9026573036173509
+[03:43:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8800964444862984
+[03:43:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7661138847370239
+[03:43:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2576444566579994
+[03:43:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6649251359322079
+[03:43:47] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7476004157188072
+[03:43:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3298815821299286
+[03:43:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8362762217284399
+[03:43:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4278741239941155
+[03:44:00] [Server thread/INFO]: sebadosz has made the advancement [Indiana Jones Would Be Jealous!]
+[03:44:03] [Server thread/INFO]: sebadosz has made the advancement [Diamonds!]
+[03:44:30] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.43411635804204707
+[03:44:30] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 1.3393359404044531
+[03:44:30] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 2.2525895073267748
+[03:44:30] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 3.1704338590634507
+[03:44:46] [Server thread/WARN]: toretoputo moved wrongly!
+[03:45:01] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 0.5838913113780109
+[03:45:01] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 1.5306555294005193
+[03:45:01] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 2.4741984317743118
+[03:45:01] [Server thread/WARN]: Pulga (vehicle of toretoputo) moved wrongly! 3.364450042671706
+[03:45:19] [Server thread/INFO]: sebadosz has made the advancement [Crystal Clear Confusion!]
+[03:45:27] [Server thread/INFO]: toretoputo fell off some vines
+[03:45:27] [Server thread/INFO]: [toretoputo: [LD] You died at -6034, 58, -3203, in minecraft:overworld.]
+[03:45:47] [Server thread/INFO]: [toretoputo: Teleported toretoputo to -6033.500000, 58.000000, -3202.500000]
+[03:46:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35491ms or 709 ticks behind
+[03:46:22] [Server thread/INFO]: [toretoputo: Teleported toretoputo to -6033.500000, 58.000000, -3202.500000]
+[03:46:22] [Server thread/WARN]: Fufazo moved too quickly! 7.8435473333311165,6.0928494551660535,1.9048826790674411
+[03:46:59] [Server thread/INFO]: [toretoputo: Set own game mode to Spectator Mode]
+[03:47:19] [Server thread/INFO]: [toretoputo: Set own game mode to Survival Mode]
+[03:49:00] [Server thread/INFO]: No battle could be found with the id: 6ca897f7-3959-44e1-81cb-07d4e0f04985
+[03:49:00] [Server thread/INFO]: No battle could be found with the id: 6ca897f7-3959-44e1-81cb-07d4e0f04985
+[03:49:26] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:centers
+[03:49:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6516221458468863
+[03:49:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:49:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:49:40] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[03:49:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.38769108643307776
+[03:49:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.078046403010589
+[03:49:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.625
+[03:49:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4455896557592496
+[03:49:42] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6895859668920821
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8243328279559137
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8999550132575678
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8502812860396514
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.28037093709144756
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.211425664109089
+[03:49:43] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.3947059238533286
+[03:49:57] [Server thread/INFO]: toretoputo has made the advancement [Diamonds!]
+[03:50:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6262516391220743
+[03:50:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3650556091479302
+[03:50:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5925608393445145
+[03:50:13] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5141339086485459
+[03:50:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7957713154237354
+[03:50:14] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5573548425900299
+[03:50:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3414464612010306
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 6.832461282610893,1.0,-7.858080963540033
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 7.095363368631297,1.0,-8.83866730851787
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 7.4928261741142705,1.0,-9.769132064933729
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 7.9611605652989965,1.0,-10.673490135312932
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 8.466832092579352,1.0,-11.564246289308812
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 8.992208893030693,1.0,-12.447895432252608
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 9.538540842018847,1.0,-13.321035757317077
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 10.131540331203723,2.0,-14.1626561889002
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 10.767244860221581,2.0,-14.972451186619764
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 11.565654545289362,2.0,-15.579251663277773
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 12.322045985107252,2.0,-16.25355780218115
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 13.05772658316073,2.0,-16.962307702922317
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 13.783191500700923,2.0,-17.688661738645806
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 14.503655836409962,2.0,-18.423989691892984
+[03:52:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 8.78342081709252,1.0,-12.227855734013247
+[03:52:06] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 9.500183378154361,1.0,-12.970165623639787
+[03:52:06] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 10.216356675405223,1.0,-13.713680614850091
+[03:52:06] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 10.932247871032814,1.0,-14.457808546815613
+[03:52:15] [Worker-Main-3/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[03:52:18] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[natural=false,facing=south,waterlogged=false,part=top,on=false] but failed at location class_2338{x=-5335, y=66, z=-3852}
+[03:56:52] [Server thread/INFO]: Fufazo has made the advancement [advancements.cobbleverse.kanto.defeat_misty]
+[03:57:22] [Server thread/WARN]: toretoputo moved too quickly! 10.087679890657455,-0.6709083839323036,-2.192897478777013
+[03:57:22] [Server thread/WARN]: Fufazo moved too quickly! 8.360608846928699,1.0013359791121417,-5.43759929296175
+[03:57:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30890ms or 617 ticks behind
+[03:59:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.49507099538186594
+[03:59:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.2542497354243096
+[03:59:51] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.7091511589105721
+[03:59:52] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[03:59:53] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.39260078152983624
+[03:59:53] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.321994471321747
+[03:59:53] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.427700765654532
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.25658196107133335
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0645756019916917
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8951256912660028
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.3793573642060437
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3801498739685485
+[03:59:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3801498739685485
+[04:00:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5225299092353453
+[04:00:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1130190313515413
+[04:00:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6741774733450256
+[04:00:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.1876362944426546
+[04:00:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.660609795779589
+[04:00:21] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=south,half=upper] but failed at location class_2338{x=-5457, y=65, z=-4171}
+[04:00:21] [Server thread/WARN]: Tried to load a block entity for block Block{cobblefurnies:statue_ancient}[facing=south,half=upper] but failed at location class_2338{x=-5461, y=65, z=-4171}
+[04:00:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.625672935703733
+[04:00:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6378435062870267
+[04:00:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.651546552217951
+[04:00:24] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[04:00:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.44795177203468484
+[04:00:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4262699937607977
+[04:00:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[04:00:25] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6432101002656054
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5888611710688565
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5655734132151338
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.559356500298236
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.56292938403476
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4318270759672487
+[04:00:26] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9308080144051019
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.685285505182037
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6958664122375922
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6177084284645389
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.37716431077387824
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.27175138512529884
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4488399696729175
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5435965404990384
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5942988923056873
+[04:00:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6214287098614477
+[04:00:28] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8816734629364414
+[04:00:28] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8895355118105392
+[04:00:28] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.900283170009116
+[04:00:28] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.9128913611261
+[04:00:29] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.9266448845834505
+[04:00:29] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 5.9410892408591955
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2566921334332619
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0311787976752385
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.483644727828505
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9251993698103433
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.366462800328918
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8074657449883489
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.24823638835187
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.679353126585738
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.101857829747132
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 3.516682319809661
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.266621610109269
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 4.715355669041401
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.204091530138612,-3.128080912665496,8.379245912886745
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.441480182248597,-3.4176308115452514,8.426616919168282
+[04:00:45] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.662361290086665,-3.6791386022278942,8.516163543171842
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 5.688550059608133
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 6.452480667310738
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.467313332143021,-2.0768320014953616,8.340449080903909
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.544408616376131,-2.227453458663007,8.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.613162192836171,-2.4489423104376016,8.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.674476634090752,-2.738492209317357,8.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.7291568543769245,-3.0,8.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.777920676233407,-3.0,8.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.642678809234894,-2.0,8.651580796644794
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.410256082549495,-2.0,8.917378718941563
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.126467193101234,-1.0,9.233746580991465
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.147853560024487,0.0,9.852642557026684
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -5.508471528984046,0.0,10.501680099937403
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -6.050757914154929,-0.07683200149536162,11.166678387178763
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -6.375823709827273,-0.2274534586630068,11.554313657652983
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -6.682972019912995,-0.4489423104376016,11.94499470498522
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -6.974098377579139,-0.7384922093173572,12.33840849840135
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -7.250737711045986,-1.093407939109099,12.734334822168421
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -7.481355909149897,-1.5111010141305457,13.104701275054595
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -7.670856409453336,-1.9890854526840371,13.452202311726978
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -7.8236502385525455,-2.5249737179006644,13.779276283033141
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -7.959911779270442,-3.0,14.070960859050501
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -8.081429824785118,-3.0,14.331085171439554
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -8.48928046380479,-3.0,14.79498489687876
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -8.87218363532702,-3.0768320014953616,15.4960295607234
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.093530189324156,-3.227453458663007,15.916428279098
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.307389753049392,-3.4489423104376016,16.336623563023295
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.514628846402047,-3.738492209317357,16.75661687024376
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.683397370564307,-4.093407939109099,17.148484771960284
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.818148956315781,-4.511101014130546,17.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.956699533797291,-4.989085452684037,17.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -10.116480081399459,-4.0,17.509498368270215
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -10.62757733089802,-4.0,17.83164181093798
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -11.278811531817155,-4.076832001495362,18.287333799612952
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -11.665744020461716,-4.227453458663007,18.558547097192786
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -12.0501749584364,-4.448942310437602,18.82649443154469
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -12.432971855953838,-4.738492209317357,19.090605096873787
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -12.815045985442339,-5.093407939109099,19.350087797201923
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -13.1970113714533,-5.511101014130546,19.60450852688564
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -13.57965972619877,-5.989085452684037,19.852958337776727
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -13.9638962731824,-6.0,20.09405774957031
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -14.743603978505234,-6.0,20.48784635208949
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -15.601186655769197,-6.0,20.868960551479177
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -16.502052152892247,-6.076832001495362,21.239063099562372
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -17.02836548139294,-6.227453458663007,21.453503121189442
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -17.542047516421007,-6.448942310437602,21.661044339057753
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -18.044485247790362,-6.738492209317357,21.862377957510034
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -18.536904647416122,-7.093407939109099,22.058150132133505
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -19.02039436499581,-7.511101014130546,22.248949855641058
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -19.451570507560064,-7.989085452684037,22.419105053968906
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -19.836093402580445,-8.524973717900664,22.57084946421128
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.17901093024284,-9.0,22.70617513316529
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.510690580532355,-9.0,22.59218137302696
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.68062935900616,-9.0,22.295207564559405
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -20.73938224192534,-9.0,21.90240751900228
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -21.144596662668846,-9.0,21.38816525389393
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -21.81503167556184,-9.0,21.279204388465587
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -22.61830101554642,-9.076832001495362,21.279204388465587
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -23.09184122341685,-9.227453458663007,21.279204388465587
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -23.55737886123552,-9.448942310437602,21.260218137166248
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -24.015522954557127,-9.738492209317357,21.223725486378044
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -24.466992480250155,-10.0,21.17144361641158
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -25.298180883054556,-10.0,20.92657815691382
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -26.171291778251543,-10.0,20.59686317528076
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -27.0667392639225,-10.0,20.22154158745252
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -27.974081394791938,-10.0,19.821693650922043
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -28.88776903076632,-10.0,19.40868110455267
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -29.805365865378917,-10.0,18.989733496206554
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -30.725300844726917,-10.0,18.56814463027149
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -31.64686465429986,-10.0,18.14596533065651
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.35909625409022,-10.0,17.72388180850021
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.35909625409022,-10.076832001495362,17.302055458689665
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.40208886012806,-10.227453458663007,17.05681684701267
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.483860183179786,-10.448942310437602,16.819579634937327
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.601430694794544,-10.738492209317357,16.592637596811073
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -32.75190791604473,-11.0,16.378093479162544
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -33.351442724103435,-11.0,16.31175414479185
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -34.13350131400239,-11.0,16.41555222941588
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -35.01101976022255,-11.0,16.617490429119698
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -35.938466145869825,-11.0,16.87550190944694
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.43472421554361,-11.0,17.013558708376422
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.700262014307555,-11.0,17.08743014892798
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.84234599617321,-11.0,17.12695728392964
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.91837230202054,-11.0,17.148107465782687
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.95905246247821,-11.0,17.15942450640341
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -36.980819605264514,-11.0,17.165480029202172
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -37.46007661292333,-10.0,17.10306391260201
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -38.11333437884787,-10.0,16.796353783195173
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -38.8596964813205,-10.0,16.35892679823246
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.06778538779463
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,15.882639311807907
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,15.783571337961803
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,15.770488859444413
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,15.816570014903846
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,15.901499415724174
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.01080601344802
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.34256824836848
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.794122505976702
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,17.1026963533659
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,17.034111405219846
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.763725973165037
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.35909625409022,-10.0,16.385364348253916
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.32539411779908,-10.0,16.4165911209152
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.273658640326175,-10.0,16.666980478805726
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.21227388153329,-10.0,17.034639366422198
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.179428120983175,-10.0,17.23136630685849
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.161853009386505,-10.0,17.33663097037379
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.15244891758084,-10.0,17.39295599306979
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -39.614778044421655,-9.0,17.479204376544658
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -40.32952221121468,-8.0,17.546608649127847
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -41.107759741309565,-8.0,17.857469650829444
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -41.91997130418713,-8.0,18.298599494278733
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -42.35909625409022,-7.0,18.809433597667066
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -42.75488843099629,-7.0,19.357565060795423
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -43.36246111051969,-7.0,19.925653597491873
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -44.083353314546,-7.0,20.504420766353178
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -44.936449428749256,-6.0,20.881511811621294
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.39292415055752,-6.0,21.083285711560166
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.63717467307288,-6.0,21.191250902479624
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.767868257840746,-6.0,21.24902092354705
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.8040976530101,-6.0,21.513613044444355
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.789781143736946,-6.0,21.888871547373128
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.74841852877398,-6.0,22.32334542487706
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.72628621818876,-6.0,22.555823734254773
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.714443660065626,-6.0,22.680218242485353
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.70810694332886,-6.0,22.746779263680764
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.67101415625166,-6.0,23.016075273473234
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.61746440914612,-6.0,23.39385073356425
+[04:00:46] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -45.55510887084529,-6.0,23.829671384663015
+[04:00:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3530010843915079
+[04:00:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8006717981575093
+[04:00:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.41940247794445895
+[04:00:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.12541303747048
+[04:00:48] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5031852115407673
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.44467973968676233
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.28910222174999944
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5355608192912769
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7628402642649235
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.981674424997891
+[04:00:54] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1969198152532954
+[04:01:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9313684227890917
+[04:01:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.92540311434459
+[04:01:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.8795359328541963
+[04:01:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.32234626327590377
+[04:01:05] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0568045168234652
+[04:01:28] [Server thread/INFO]: Named entity RideablePokemonEntity['MartilloPuto'/34069, l='ServerLevel[world]', x=-6160.90, y=-39.00, z=-3145.35] died: MartilloPuto was slain by Zombie
+[04:01:49] [Server thread/INFO]: Named entity RideablePokemonEntity['hongito'/38522, l='ServerLevel[world]', x=-6156.60, y=-41.00, z=-3150.40] died: hongito was slain by Zombie
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -8.079968329073381,-0.5884336822988772,-6.364211794004859
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -8.351721206575348,4.0,-4.493502716822604
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -9.21187102897784,4.0,-4.931898765644746
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -10.136180888654053,4.0,-5.009162312421722
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -11.07648702998631,4.0,-4.846965833152808
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! -12.0144391661388,4.0,-4.534262784304701
+[04:03:59] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 13.26256688081321,-4.0,3.0934616982749503
+[04:04:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6618702987138931
+[04:04:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3344630490628333
+[04:04:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.084946677276413
+[04:04:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6406395826828182
+[04:04:11] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1698827938512495
+[04:04:12] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3013496555904567
+[04:04:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8602931572868329
+[04:04:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8938709071499034
+[04:04:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.9271059795664769
+[04:04:27] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9601576921140804
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.771230588103208
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8016462820141896
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8329891035309629
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.8648280125453311
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.8969337133294175
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8071174702126882
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.8394994522286652
+[04:04:55] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.327464705366765
+[04:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.666954828240705
+[04:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.187173289700695
+[04:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.4655318163904667
+[04:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6144759141525356
+[04:04:56] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.6941729312402458
+[04:05:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.2802595247030695
+[04:05:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.31132527678892075
+[04:05:15] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5846483558966611
+[04:05:16] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.6861592612874299
+[04:05:16] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5498092076932153
+[04:05:16] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.923778883840896
+[04:05:16] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.239623605671568
+[04:05:17] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5017778420269678
+[04:05:17] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.5092236352502368
+[04:05:17] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5272732300836651
+[04:05:17] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5506880464772621
+[04:05:18] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.0982969100396076
+[04:05:33] [Server thread/INFO]: toretoputo was slain by Zombie
+[04:05:33] [Server thread/INFO]: [toretoputo: [LD] You died at -6142, -46, -3143, in minecraft:overworld.]
+[04:05:51] [Server thread/INFO]: [toretoputo: Teleported toretoputo to -6141.500000, -46.000000, -3142.500000]
+[04:06:05] [Server thread/INFO]: Named entity RideablePokemonEntity['Pulga'/42307, l='ServerLevel[world]', x=-6151.32, y=-48.00, z=-3134.68] died: Pulga was slain by Zombie
+[04:06:08] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.4143553042313215
+[04:06:08] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.296854623762556
+[04:06:08] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.1226637732352174
+[04:06:08] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.9182325656865942
+[04:06:08] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.6976514869229504
+[04:06:26] [Server thread/INFO]: [sebadosz: Teleported sebadosz to Fufazo]
+[04:06:35] [Server thread/INFO]: No battle could be found with the id: cee657d7-d596-4df5-9f2a-87257486b1ec
+[04:06:35] [Server thread/INFO]: No battle could be found with the id: cee657d7-d596-4df5-9f2a-87257486b1ec
+[04:06:37] [Worker-Main-2/WARN]: Unknown attachment type accessories:inventory_holder found when deserializing, skipping
+[04:07:30] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -5611.500000, 65.500000, -1718.500000]
+[04:07:49] [Server thread/INFO]: [Fufazo: Teleported Fufazo to -5544.500000, 73.500000, -2175.500000]
+[04:08:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33853ms or 677 ticks behind
+[04:08:23] [Server thread/WARN]: toretoputo moved too quickly! -9.580268837598851,3.249187078744683,1.8557564092916436
+[04:09:01] [Server thread/INFO]: [toretoputo: Teleported toretoputo to sebadosz]
+[04:11:27] [Server thread/INFO]: toretoputo has made the advancement [Cover Me with Diamonds]
+[04:12:59] [Server thread/INFO]: No battle could be found with the id: ae1f608f-8212-470a-a160-79fcffb8a8b8
+[04:12:59] [Server thread/INFO]: No battle could be found with the id: ae1f608f-8212-470a-a160-79fcffb8a8b8
+[04:14:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.3709978326382952
+[04:14:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.31777120111974
+[04:14:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.3021580965828434
+[04:14:57] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.8288838977878186
+[04:15:31] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5353903853138036
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.5430795013171519
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 1.135812895347044
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.7538869220170454
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 0.45075510313745326
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.0
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.1820183238933186
+[04:15:32] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved wrongly! 2.5459454010695373
+[04:15:42] [Server thread/WARN]: Fufazo moved too quickly! -6.304744269948969,0.4990033597325265,-7.91477291756064
+[04:16:12] [Server thread/INFO]: No battle could be found with the id: 988464b6-2c56-46c1-855b-a0c633fb586b
+[04:16:12] [Server thread/INFO]: No battle could be found with the id: 988464b6-2c56-46c1-855b-a0c633fb586b
+[04:16:14] [Server thread/INFO]: [toretoputo: Teleported toretoputo to Fufazo]
+[04:16:16] [Server thread/INFO]: [sebadosz: Teleported sebadosz to -7069.500000, 68.500000, -4288.500000]
+[04:16:53] [Server thread/INFO]: Fufazo was slain by toretoputo
+[04:16:53] [Server thread/INFO]: [Fufazo: [LD] You died at -5469, 74, -1809, in minecraft:overworld.]
+[04:16:58] [Server thread/INFO]: [Fufazo: Teleported Fufazo to toretoputo]
+[04:17:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 0.47970190034175175,0.3373374664271793,-10.450640255689905
+[04:17:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 0.5204117179609966,0.4159948326913394,-10.93201421712547
+[04:17:03] [Server thread/WARN]: Purugly (vehicle of sebadosz) moved too quickly! 0.5615727098402203,0.4776622087613589,-11.412523148208493
+[04:17:12] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:general_decor
+[04:17:12] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:rare_structures
+[04:17:12] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:centers
+[04:17:12] [Worker-Main-3/WARN]: Empty or non-existent pool: bca:rare_structures
+[04:17:15] [Server thread/INFO]: toretoputo was slain by Fufazo
+[04:17:15] [Server thread/INFO]: [toretoputo: [LD] You died at -5471, 73, -1805, in minecraft:overworld.]
+[04:17:18] [Server thread/INFO]: [toretoputo: Teleported toretoputo to Fufazo]
+[04:17:23] [Server thread/INFO]: [toretoputo: Banned sebadosz: Banned by an operator.]
+[04:17:23] [Server thread/INFO]: sebadosz lost connection: You are banned from this server
+[04:17:23] [Server thread/INFO]: sebadosz left the game
+[04:17:23] [Server thread/INFO]: Unregistered trainer player: sebadosz
+[04:17:29] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:52365): You are banned from this server.
+Reason: Banned by an operator.
+[04:17:29] [Server thread/INFO]: sebadosz (/127.140.111.193:52365) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[04:17:29] [Server thread/WARN]: handleDisconnection() called twice
+[04:17:38] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:55191): You are banned from this server.
+Reason: Banned by an operator.
+[04:17:38] [Server thread/INFO]: sebadosz (/127.140.111.193:55191) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[04:17:38] [Server thread/WARN]: handleDisconnection() called twice
+[04:17:49] [Server thread/INFO]: Disconnecting sebadosz (/127.140.111.193:47335): You are banned from this server.
+Reason: Banned by an operator.
+[04:17:49] [Server thread/INFO]: sebadosz (/127.140.111.193:47335) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[04:17:49] [Server thread/WARN]: handleDisconnection() called twice
+[04:17:57] [Server thread/INFO]: [toretoputo: Unbanned sebadosz]
+[04:18:01] [Server thread/INFO]: sebadosz[/127.140.111.193:44857] logged in with entity id 46108 at (-7070.418935023027, 71.20000001192093, -4436.175844524129)
+[04:18:01] [Server thread/INFO]: sebadosz joined the game
+[04:18:01] [Server thread/INFO]: Registered trainer player: sebadosz
+[04:18:02] [Server thread/INFO]: Channel update: sebadosz -> default
+[04:18:02] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: sebadosz
