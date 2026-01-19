@@ -1,0 +1,26 @@
+/tailscale-cs
+/work_area*
+composer.*
+/Python*
+*.output
+/Modgest
+/thanos
+/vendor
+/bkdir
+java/
+*.exe
+*.msi
+*.pyc
+*.msp
+*.msx
+msx.py
+# Mods de Minecraft (muy grandes)
+servidor_minecraft/mods/*.jar
+
+# Excepto mods pequeños o custom (opcional)
+!servidor_minecraft/mods/tu-mod-custom.jar
+
+# Otros archivos grandes
+servidor_minecraft/world/
+servidor_minecraft/logs/
+servidor_minecraft/crash-reports/
